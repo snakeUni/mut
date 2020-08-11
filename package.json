@@ -31,20 +31,5 @@
   },
   "peerDependencies": {
     "react": ">=16"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "tsdx lint src"
-    }
-  },
-  "prettier": {
-    "bracketSpacing": true,
-    "jsxBracketSameLine": false,
-    "printWidth": 100,
-    "semi": false,
-    "singleQuote": true,
-    "tabWidth": 2,
-    "arrowParens": "avoid",
-    "trailingComma": "none"
   }
 }
