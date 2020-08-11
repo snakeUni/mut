@@ -1,0 +1,40 @@
+{
+  "name": "mut",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/mut.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint"
+  },
+  "repository": "https://github.com/snakeUni/mut.git",
+  "author": "fox <1025687605@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.46",
+    "@types/react-dom": "^16.9.8",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
+    "react": "17.0.0-rc.0",
+    "react-dom": "17.0.0-rc.0",
+    "tsdx": "^0.13.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "immer": "^7.0.7"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  }
+}
