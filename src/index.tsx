@@ -48,6 +48,8 @@ export function createStore<T>(initialState: T): Store<T> {
 
 function subscribe<T>(store: Store<T>, callback: Listener) {
   store.subscribe(callback)
+
+  return () => store.unsubscribe(callback)
 }
 
 function getStoreVersion<T>(store: Store<T>): T {
@@ -71,7 +73,7 @@ export function Provider<T>({ children, store }: ProviderProps<T>) {
   const mutableSource = useMemo(() => {
     // Wrap the Redux store in a MutableSource object.
     // The useMutableSource() hook works with this type of object.
-    return (React as any).createMutableSource(store, getStoreVersion)
+    return (React as any).unstable_createMutableSource(store, getStoreVersion)
   }, [store])
 
   return (
@@ -82,7 +84,7 @@ export function Provider<T>({ children, store }: ProviderProps<T>) {
 // This is the user-facing hook!
 // It requires a selector and returns a derived store value.
 // This is probably an oversimplified example. :)
-export function useSelector<T, K>(selector: (state: T) => K) {
+export function useSelector<T, K = unknown>(selector: (state: T) => K): K {
   const mutableSource = useContext(MutableSourceContext)
   // Pass the store state to user selector:
   const getSnapshot = useCallback(store => selector(store.getState()), [selector])
@@ -95,5 +97,5 @@ export function useSelector<T, K>(selector: (state: T) => K) {
   // to be used safely with concurrent mode-
   // but it does so at the cost of deopting to
   // sync rendering mode in some cases to avoid tearing.
-  return (React as any).useMutableSource(mutableSource, getSnapshot, subscribe)
+  return (React as any).unstable_useMutableSource(mutableSource, getSnapshot, subscribe)
 }

@@ -4880,8 +4880,8 @@ qs@~6.5.2:
 
 react-dom@17.0.0-rc.0:
   version "17.0.0-rc.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.0-rc.0.tgz#237b4cca9cf817329373424bde00736f11fd7541"
-  integrity sha512-Ny2SlnMe+SxWRVDX2aLyWsv3ltbJC0gVyWtedfoJnV2265ePcM8BLY9fJjKb4ZXwcQ+pwZFdsURYarJ5qEEMeQ==
+  resolved "https://registry.npm.taobao.org/react-dom/download/react-dom-17.0.0-rc.0.tgz#237b4cca9cf817329373424bde00736f11fd7541"
+  integrity sha1-I3tMypz4FzKTc0JL3gBzbxH9dUE=
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -4894,8 +4894,8 @@ react-is@^16.8.1, react-is@^16.8.4:
 
 react@17.0.0-rc.0:
   version "17.0.0-rc.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-17.0.0-rc.0.tgz#91a4d2085f07b501175a2434bd65b35aa0e95686"
-  integrity sha512-GPOdeCEE5HL9jRh7YIXoqBBxQVTqKtMm7tbH0Q//PJZV9EkFyUSDUglvIO/0i42PuUstEBcmOwlodTV2R9iStg==
+  resolved "https://registry.npm.taobao.org/react/download/react-17.0.0-rc.0.tgz#91a4d2085f07b501175a2434bd65b35aa0e95686"
+  integrity sha1-kaTSCF8HtQEXWiQ0vWWzWqDpVoY=
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -5292,8 +5292,8 @@ sax@^1.2.4:
 
 scheduler@0.20.0-rc.0:
   version "0.20.0-rc.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.20.0-rc.0.tgz#9cb397f88f9decea28d159d3aad068b54a6f35e4"
-  integrity sha512-5CZiVhk9xI9VmqaodZH+eO3aKgqYwjZ8uf9lnfRlYEwaB4lbmIq0mzuNY5w52sbPlZP9pifXQaLGudKHMgQZcw==
+  resolved "https://registry.npm.taobao.org/scheduler/download/scheduler-0.20.0-rc.0.tgz#9cb397f88f9decea28d159d3aad068b54a6f35e4"
+  integrity sha1-nLOX+I+d7Ooo0VnTqtBotUpvNeQ=
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
