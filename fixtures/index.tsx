@@ -22,19 +22,16 @@ function App() {
   )
 }
 
-const Count = ({ c }) => {
-  console.log('c', c)
-  return c
-}
-
 function Label() {
-  const count = useSelector<State, number>(state => state.count)
+  const selector = React.useCallback(state => state.count, [])
+  const count = useSelector<State, number>(selector)
   console.log('render count:', count)
   return <div>count: {count}</div>
 }
 
 function Label2() {
-  const value = useSelector<State, number>(state => state.value)
+  const selector = React.useCallback(state => state.value, [])
+  const value = useSelector<State, number>(selector)
   console.log('render value:', value)
   return <div>value: {value}</div>
 }
