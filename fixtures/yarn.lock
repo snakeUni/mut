@@ -899,7 +899,7 @@
 
 "@parcel/fs@^1.11.0":
   version "1.11.0"
-  resolved "https://registry.npm.taobao.org/@parcel/fs/download/@parcel/fs-1.11.0.tgz#fb8a2be038c454ad46a50dc0554c1805f13535cd"
+  resolved "https://registry.npm.taobao.org/@parcel/fs/download/@parcel/fs-1.11.0.tgz?cache=0&sync_timestamp=1597365695709&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40parcel%2Ffs%2Fdownload%2F%40parcel%2Ffs-1.11.0.tgz#fb8a2be038c454ad46a50dc0554c1805f13535cd"
   integrity sha1-+4or4DjEVK1GpQ3AVUwYBfE1Nc0=
   dependencies:
     "@parcel/utils" "^1.11.0"
@@ -919,7 +919,7 @@
 
 "@parcel/utils@^1.11.0":
   version "1.11.0"
-  resolved "https://registry.npm.taobao.org/@parcel/utils/download/@parcel/utils-1.11.0.tgz#539e08fff8af3b26eca11302be80b522674b51ea"
+  resolved "https://registry.npm.taobao.org/@parcel/utils/download/@parcel/utils-1.11.0.tgz?cache=0&sync_timestamp=1597365689871&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40parcel%2Futils%2Fdownload%2F%40parcel%2Futils-1.11.0.tgz#539e08fff8af3b26eca11302be80b522674b51ea"
   integrity sha1-U54I//ivOybsoRMCvoC1ImdLUeo=
 
 "@parcel/watcher@^1.12.1":
@@ -932,7 +932,7 @@
 
 "@parcel/workers@^1.11.0":
   version "1.11.0"
-  resolved "https://registry.npm.taobao.org/@parcel/workers/download/@parcel/workers-1.11.0.tgz#7b8dcf992806f4ad2b6cecf629839c41c2336c59"
+  resolved "https://registry.npm.taobao.org/@parcel/workers/download/@parcel/workers-1.11.0.tgz?cache=0&sync_timestamp=1597365690293&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40parcel%2Fworkers%2Fdownload%2F%40parcel%2Fworkers-1.11.0.tgz#7b8dcf992806f4ad2b6cecf629839c41c2336c59"
   integrity sha1-e43PmSgG9K0rbOz2KYOcQcIzbFk=
   dependencies:
     "@parcel/utils" "^1.11.0"
@@ -2079,9 +2079,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.523:
-  version "1.3.532"
-  resolved "https://registry.npm.taobao.org/electron-to-chromium/download/electron-to-chromium-1.3.532.tgz?cache=0&sync_timestamp=1597261078804&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Felectron-to-chromium%2Fdownload%2Felectron-to-chromium-1.3.532.tgz#281efb8b8588ec8a105db8829c39dd2ad178b1f3"
-  integrity sha1-KB77i4WI7IoQXbiCnDndKtF4sfM=
+  version "1.3.533"
+  resolved "https://registry.npm.taobao.org/electron-to-chromium/download/electron-to-chromium-1.3.533.tgz?cache=0&sync_timestamp=1597289723862&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Felectron-to-chromium%2Fdownload%2Felectron-to-chromium-1.3.533.tgz#d7e5ca4d57e9bc99af87efbe13e7be5dde729b0f"
+  integrity sha1-1+XKTVfpvJmvh+++E+e+Xd5ymw8=
 
 elliptic@^6.5.3:
   version "6.5.3"
@@ -3115,9 +3115,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.4:
-  version "4.17.19"
-  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.19.tgz?cache=0&sync_timestamp=1594226827854&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
-  integrity sha1-5I3e2+MLMyF4PFtDAfvTU7weSks=
+  version "4.17.20"
+  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.20.tgz?cache=0&sync_timestamp=1597336053864&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
+  integrity sha1-tEqbYpe8tpjxxRo1RaKzs2jVnFI=
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -3534,7 +3534,7 @@ pako@~1.0.5:
 
 parcel@^1.12.4:
   version "1.12.4"
-  resolved "https://registry.npm.taobao.org/parcel/download/parcel-1.12.4.tgz#c8136085179c6382e632ca98126093e110be2ac5"
+  resolved "https://registry.npm.taobao.org/parcel/download/parcel-1.12.4.tgz?cache=0&sync_timestamp=1597365699179&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fparcel%2Fdownload%2Fparcel-1.12.4.tgz#c8136085179c6382e632ca98126093e110be2ac5"
   integrity sha1-yBNghRecY4LmMsqYEmCT4RC+KsU=
   dependencies:
     "@babel/code-frame" "^7.0.0"
@@ -4027,26 +4027,26 @@ posthtml-parser@^0.4.0, posthtml-parser@^0.4.1, posthtml-parser@^0.4.2:
   dependencies:
     htmlparser2 "^3.9.2"
 
-posthtml-render@^1.1.3, posthtml-render@^1.1.5, posthtml-render@^1.2.2:
+posthtml-render@^1.1.3, posthtml-render@^1.1.5, posthtml-render@^1.2.2, posthtml-render@^1.2.3:
   version "1.2.3"
   resolved "https://registry.npm.taobao.org/posthtml-render/download/posthtml-render-1.2.3.tgz?cache=0&sync_timestamp=1596694117583&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fposthtml-render%2Fdownload%2Fposthtml-render-1.2.3.tgz#da1cf7ba4efb42cfe9c077f4f41669745de99b6d"
   integrity sha1-2hz3uk77Qs/pwHf09BZpdF3pm20=
 
 posthtml@^0.11.2:
   version "0.11.6"
-  resolved "https://registry.npm.taobao.org/posthtml/download/posthtml-0.11.6.tgz?cache=0&sync_timestamp=1592805294719&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fposthtml%2Fdownload%2Fposthtml-0.11.6.tgz#e349d51af7929d0683b9d8c3abd8166beecc90a8"
+  resolved "https://registry.npm.taobao.org/posthtml/download/posthtml-0.11.6.tgz?cache=0&sync_timestamp=1597318918255&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fposthtml%2Fdownload%2Fposthtml-0.11.6.tgz#e349d51af7929d0683b9d8c3abd8166beecc90a8"
   integrity sha1-40nVGveSnQaDudjDq9gWa+7MkKg=
   dependencies:
     posthtml-parser "^0.4.1"
     posthtml-render "^1.1.5"
 
 posthtml@^0.13.1:
-  version "0.13.1"
-  resolved "https://registry.npm.taobao.org/posthtml/download/posthtml-0.13.1.tgz?cache=0&sync_timestamp=1592805294719&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fposthtml%2Fdownload%2Fposthtml-0.13.1.tgz#3b85df6b0e084370a713302043c1c0f47cbaa5a8"
-  integrity sha1-O4Xfaw4IQ3CnEzAgQ8HA9Hy6pag=
+  version "0.13.2"
+  resolved "https://registry.npm.taobao.org/posthtml/download/posthtml-0.13.2.tgz?cache=0&sync_timestamp=1597318918255&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fposthtml%2Fdownload%2Fposthtml-0.13.2.tgz#1212e45505eb7065fb46eac52a2981bf006b4ad2"
+  integrity sha1-EhLkVQXrcGX7RurFKimBvwBrStI=
   dependencies:
     posthtml-parser "^0.4.2"
-    posthtml-render "^1.2.2"
+    posthtml-render "^1.2.3"
 
 prelude-ls@~1.1.2:
   version "1.1.2"
@@ -4890,7 +4890,7 @@ typedarray@^0.0.6:
 
 typescript@^3.9.7:
   version "3.9.7"
-  resolved "https://registry.npm.taobao.org/typescript/download/typescript-3.9.7.tgz?cache=0&sync_timestamp=1597216954142&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftypescript%2Fdownload%2Ftypescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
+  resolved "https://registry.npm.taobao.org/typescript/download/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
   integrity sha1-mNYApevcOPQMsndSLxLcgA6eJfo=
 
 uncss@^0.17.3:

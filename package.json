@@ -21,8 +21,8 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
-    "react": "17.0.0-rc.0",
-    "react-dom": "17.0.0-rc.0",
+    "react": "^0.0.0-experimental-94c0244ba",
+    "react-dom": "^0.0.0-experimental-94c0244ba",
     "tsdx": "^0.13.2",
     "typescript": "^3.9.7"
   },

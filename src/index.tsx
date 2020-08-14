@@ -74,6 +74,7 @@ export function Provider<T>({ children, store }: ProviderProps<T>) {
     // Wrap the Redux store in a MutableSource object.
     // The useMutableSource() hook works with this type of object.
     return (React as any).unstable_createMutableSource(store, getStoreVersion)
+    // return (React as any).createMutableSource(store, getStoreVersion)
   }, [store])
 
   return (
@@ -98,4 +99,5 @@ export function useSelector<T, K = unknown>(selector: (state: T) => K): K {
   // but it does so at the cost of deopting to
   // sync rendering mode in some cases to avoid tearing.
   return (React as any).unstable_useMutableSource(mutableSource, getSnapshot, subscribe)
+  // return (React as any).useMutableSource(mutableSource, getSnapshot, subscribe)
 }
