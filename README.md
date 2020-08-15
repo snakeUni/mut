@@ -14,7 +14,9 @@ mut require react@experimental and react-dom@experimental
 
 you can
 
-`yarn add react@experimental react-dom@experimental -D`
+```shell
+yarn add react@experimental react-dom@experimental -D
+```
 
 ### Example
 
