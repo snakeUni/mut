@@ -1,5 +1,5 @@
 {
-  "name": "@snake/mut",
+  "name": "@bete/mut",
   "version": "1.0.1",
   "main": "dist/index.js",
   "module": "dist/mut.esm.js",

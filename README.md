@@ -6,7 +6,7 @@ A tiny state management library based on Immer and useMutableSource
 
 ### Install
 
-`yarn add @snake/mut` 或 `npm install @snake/mut`
+`yarn add @bete/mut` 或 `npm install @bete/mut`
 
 _Note:_
 
@@ -21,7 +21,7 @@ you can
 ```jsx
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
-import { createStore, useSelector, Provider } from '@snake/mut'
+import { createStore, useSelector, Provider } from '@bete/mut'
 
 interface State {
   count: number
