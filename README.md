@@ -8,6 +8,14 @@ A tiny state management library based on Immer and useMutableSource
 
 `yarn add @snake/mut` 或 `npm install @snake/mut`
 
+_Note:_
+
+mut require react@experimental and react-dom@experimental
+
+you can
+
+`yarn add react@experimental react-dom@experimental -D`
+
 ### Example
 
 ```jsx
