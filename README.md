@@ -1,6 +1,6 @@
 # mut
 
-A tiny state management library based on Immer and useMutableSource
+A tiny state management library based on Immer and useMutableSource or useSubscribe
 
 ## Usage
 
@@ -10,11 +10,7 @@ A tiny state management library based on Immer and useMutableSource
 
 _Note:_
 
-mut require react@experimental and react-dom@experimental
-
-you can
-
-`yarn add react@experimental react-dom@experimental -D`
+if useMutableSource is available then use useMutableSource otherwise use useSubscribe
 
 ### Example
 
