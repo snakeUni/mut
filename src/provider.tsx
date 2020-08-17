@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Store } from './store'
 import { MutableSourceContext } from './context'
+import { canUseMutableSource } from './util'
 
 const { useMemo } = React
 
@@ -24,7 +25,7 @@ export function Provider<T>({ children, store }: ProviderProps<T>) {
     // Wrap the Redux store in a MutableSource object.
     // The useMutableSource() hook works with this type of object.
     // if can use createMutableSource then use createMutableSource
-    if ((React as any).unstable_createMutableSource) {
+    if (canUseMutableSource()) {
       return (React as any).unstable_createMutableSource(store, getStoreVersion)
     } else {
       return store
