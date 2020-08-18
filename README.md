@@ -35,6 +35,7 @@ function App() {
       <Label />
       <Label2 />
       <Buttons />
+      <Reset />
     </Provider>
   )
 }
@@ -51,6 +52,16 @@ function Label2() {
   const value = useSelector<State, number>(selector)
   console.log('render value:', value)
   return <div>value: {value}</div>
+}
+
+function Reset() {
+  const reset = () => {
+    store.reset()
+  }
+
+  return (
+    <button onClick={reset}>decreaseValue</button>
+  )
 }
 
 function Buttons() {
@@ -89,3 +100,48 @@ function Buttons() {
 
 ReactDOM.render(<App />, document.getElementById('root'))
 ```
+
+## Api
+
+### createStore
+
+```jsx
+function createStore<T>(initialState: T): Store<T>
+```
+
+```jsx
+interface Store<T> {
+  subscribe: (listener: Listener) => () => void
+  unsubscribe: (listener: Listener) => void
+  reset: () => void
+  mutate: (updater: (draft: Draft<T>) => void | T) => void
+  setState: (nextState: T | UpdateFn<T>) => void
+  getState: () => T
+}
+```
+
+### Provider
+
+```
+const store = createStore()
+
+<Provider store={store}>
+  {children}
+</Provider>
+```
+
+### useSelector
+
+```jsx
+function useSelector<T, K = unknown>(selector: (state: T) => K): K
+```
+
+Example
+
+```jsx
+const selector = React.useCallback(state => state.value, [])
+const value = useSelector<State, number>(selector)
+```
+
+> _Note_  
+> selector [need use useCallback](https://github.com/reactjs/rfcs/blob/master/text/0147-use-mutable-source.md)
