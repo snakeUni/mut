@@ -17,6 +17,7 @@ function App() {
     <Provider store={store}>
       <Label />
       <Label2 />
+      <Label3 />
       <Buttons />
     </Provider>
   )
@@ -34,6 +35,18 @@ function Label2() {
   const value = useSelector<State, number>(selector)
   console.log('render value:', value)
   return <div>value: {value}</div>
+}
+
+function Label3() {
+  const state = useSelector<State, State>(s => s)
+  console.log('render state:', state)
+  return (
+    <div>
+      <h1>Label3</h1>
+      <div>value: {state.value}</div>
+      <div>count: {state.count}</div>
+    </div>
+  )
 }
 
 function Buttons() {
