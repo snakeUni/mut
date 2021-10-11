@@ -1,16 +1,12 @@
 # mut
 
-A tiny state management library based on Immer and useMutableSource or useSubscribe
+A tiny state management library based on Immer and useSyncExternalStoreExtra
 
 ## Usage
 
 ### Install
 
 `yarn add @bete/mut` 或 `npm install @bete/mut`
-
-_Note:_
-
-if useMutableSource is available then use useMutableSource otherwise use useSubscribe
 
 ### Example
 
@@ -133,7 +129,7 @@ const store = createStore()
 ### useSelector
 
 ```jsx
-function useSelector<T, K = unknown>(selector: (state: T) => K): K
+function useSelector<T, K = unknown>(selector: (state: T) => K, equalityFn?: (a: K | undefined, b: K | undefined) => boolean): K
 ```
 
 Example
@@ -143,5 +139,4 @@ const selector = React.useCallback(state => state.value, [])
 const value = useSelector<State, number>(selector)
 ```
 
-> _Note_  
-> selector [need use useCallback](https://github.com/reactjs/rfcs/blob/master/text/0147-use-mutable-source.md)
+[more about useSyncExternalStore](https://github.com/reactwg/react-18/discussions/86)

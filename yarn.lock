@@ -1231,6 +1231,11 @@
   resolved "https://registry.npm.taobao.org/@types/use-subscription/download/@types/use-subscription-1.0.0.tgz#d146f8d834f70f50d48bd8246a481d096f11db19"
   integrity sha1-0Ub42DT3D1DUi9gkakgdCW8R2xk=
 
+"@types/use-sync-external-store@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.npmmirror.com/@types/use-sync-external-store/download/@types/use-sync-external-store-0.0.0.tgz#ec2ebe41a1288e3d5d80aacc4a4c2873db4aafa8"
+  integrity sha1-7C6+QaEojj1dgKrMSkwoc9tKr6g=
+
 "@types/yargs-parser@*":
   version "15.0.0"
   resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-15.0.0.tgz#cb3f9f741869e20cce330ffbeb9271590483882d"
@@ -6150,12 +6155,10 @@ urix@^0.1.0:
   resolved "https://registry.yarnpkg.com/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
-use-subscription@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.npm.taobao.org/use-subscription/download/use-subscription-1.4.1.tgz#edcbcc220f1adb2dd4fa0b2f61b6cc308e620069"
-  integrity sha1-7cvMIg8a2y3U+gsvYbbMMI5iAGk=
-  dependencies:
-    object-assign "^4.1.1"
+use-sync-external-store@0.0.0-experimental-7d38e4fd8-20210930:
+  version "0.0.0-experimental-7d38e4fd8-20210930"
+  resolved "https://registry.npmmirror.com/use-sync-external-store/download/use-sync-external-store-0.0.0-experimental-7d38e4fd8-20210930.tgz#e19347e9db200a1407772c4322a508c01cc9a7f3"
+  integrity sha1-4ZNH6dsgChQHdyxDIqUIwBzJp/M=
 
 use@^3.1.0:
   version "3.1.1"
